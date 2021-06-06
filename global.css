@@ -1,0 +1,63 @@
+:root {
+  /* background colors */
+  --base: #31343f;
+  --baseBackground: #2b2c36;
+  --backgroundShade: #1f2128;
+  --navBackground: #2b2c36e5;
+
+
+  /* font colors */
+  --mainFont: #cecece;
+  --baseFont: #fff;
+  --fontShade: #f4f4f4;
+
+  /* background + font colors */
+  --primary: #ffbb00;
+  --blendShade: #333642;
+
+  /* overlay colors */
+  --primaryOverlay: #141c3acc;
+  --secondaryOverlay: #141c3a17;
+
+  /* special shades */
+  --Shade1: #262831;
+  --Shade2: #cecece;
+  --shade3: #464953;
+  --borderShade: #1b1c22;
+
+  /* Fonts */
+  --staatliches: Staatliches, cursive;
+  --montserrat: Montserrat, sans-serif;
+  --verdana: Verdana, sans-serif;
+}
+
+[data-theme="light"] {
+  /* background colors */
+  --base: #fff;
+  --baseBackground: #f4f4f4;
+  --backgroundShade: #e6e6e6;
+  --navBackground: #f4f4f4e3;
+
+  /* font colors */
+  --mainFont: #1b1c22;
+  --baseFont: #31343f;
+  --fontShade: #2b2c36;
+
+  /* background + font colors */
+  --primary: #7510f7;
+  --blendShade: #fafafa;
+
+  /* overlay colors */
+  --primaryOverlay: #9c3effa6;
+  --secondaryOverlay: #7510f70d;
+
+  /* special shades */
+  --Shade1: #f4f4f4;
+  --Shade2: #262831;
+  --shade3: #dbdbdb;
+  --borderShade: #464953;
+}
+
+html {
+  scroll-behavior: smooth;
+}
