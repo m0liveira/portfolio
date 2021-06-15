@@ -1801,7 +1801,7 @@ footer .bottomContainer a:hover {
 
   /* img containers */
   footer .topContainer .imgContainer {
-    width: 18%;
+    width: 17% !important;
     height: 80%;
   }
 
